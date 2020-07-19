@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SmN-dc-8AI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LaunchVC-->
+        <scene sceneID="nvQ-JG-ATq">
+            <objects>
+                <viewController id="GBc-yl-OBI" customClass="LaunchVC" customModule="famouschat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9aq-Qp-iCB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lunch_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="03X-PS-4sm">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RD0-hI-rJO" customClass="VideoView" customModule="famouschat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="0XK-bC-w1Q">
+                                <rect key="frame" x="107.5" y="153.5" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="9yP-fr-Vt5"/>
+                                    <constraint firstAttribute="height" constant="160" id="v25-DQ-hH0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="03X-PS-4sm" firstAttribute="top" secondItem="9aq-Qp-iCB" secondAttribute="top" id="1cM-A8-sHL"/>
+                            <constraint firstItem="0XK-bC-w1Q" firstAttribute="centerY" secondItem="9aq-Qp-iCB" secondAttribute="centerY" constant="-100" id="4M9-xa-aFP"/>
+                            <constraint firstItem="03X-PS-4sm" firstAttribute="trailing" secondItem="ewh-O8-6Zi" secondAttribute="trailing" id="4Wa-bb-ELg"/>
+                            <constraint firstItem="0XK-bC-w1Q" firstAttribute="centerX" secondItem="9aq-Qp-iCB" secondAttribute="centerX" id="662-cl-0Iw"/>
+                            <constraint firstItem="RD0-hI-rJO" firstAttribute="leading" secondItem="ewh-O8-6Zi" secondAttribute="leading" id="AFo-nE-Hny"/>
+                            <constraint firstItem="RD0-hI-rJO" firstAttribute="top" secondItem="9aq-Qp-iCB" secondAttribute="top" id="Ifv-fv-Pqf"/>
+                            <constraint firstItem="RD0-hI-rJO" firstAttribute="bottom" secondItem="ewh-O8-6Zi" secondAttribute="bottom" id="bN3-JO-n4P"/>
+                            <constraint firstItem="RD0-hI-rJO" firstAttribute="trailing" secondItem="ewh-O8-6Zi" secondAttribute="trailing" id="k7c-GQ-9At"/>
+                            <constraint firstItem="03X-PS-4sm" firstAttribute="bottom" secondItem="ewh-O8-6Zi" secondAttribute="bottom" id="mGS-EC-JrE"/>
+                            <constraint firstItem="03X-PS-4sm" firstAttribute="leading" secondItem="ewh-O8-6Zi" secondAttribute="leading" id="reI-Mb-QZ8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ewh-O8-6Zi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bJm-Nv-pTA"/>
+                    <connections>
+                        <outlet property="video_view" destination="RD0-hI-rJO" id="7vr-RZ-kxm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05l-W3-rGY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="712.79999999999995" y="8.5457271364317844"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kwV-0A-irO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="SmN-dc-8AI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jce-e4-CrF">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GBc-yl-OBI" kind="relationship" relationship="rootViewController" id="mDS-HQ-YGD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7du-zj-3aD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15" y="9"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lunch_image.png" width="1080" height="1920"/>
+        <image name="mark.png" width="194" height="194"/>
+    </resources>
+</document>

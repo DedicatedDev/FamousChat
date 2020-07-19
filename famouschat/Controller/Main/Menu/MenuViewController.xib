@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="famouschat" customModuleProvider="target">
+            <connections>
+                <outlet property="address" destination="k5o-2s-rLV" id="Zzp-oa-ss9"/>
+                <outlet property="header" destination="uOH-3u-It5" id="4yN-9r-Sn5"/>
+                <outlet property="name" destination="iNh-Ne-ekK" id="6T2-Ws-GYI"/>
+                <outlet property="photo" destination="Hpx-hC-p6k" id="xRF-C9-1Zo"/>
+                <outlet property="tableView" destination="h5c-Og-jM6" id="ps9-LB-REp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uOH-3u-It5">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="non_profile.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hpx-hC-p6k">
+                            <rect key="frame" x="10" y="75" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="fv0-SP-rle"/>
+                                <constraint firstAttribute="width" constant="60" id="nR3-eO-34x"/>
+                            </constraints>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="flp-E2-VwA">
+                            <rect key="frame" x="80" y="73" width="285" height="55"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oni Angel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNh-Ne-ekK">
+                                    <rect key="frame" x="0.0" y="0.0" width="285" height="27.5"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Francisco, CA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5o-2s-rLV">
+                                    <rect key="frame" x="0.0" y="27.5" width="285" height="27.5"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="kFa-Dv-eQ8"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="flp-E2-VwA" secondAttribute="bottom" constant="22" id="5iw-Ec-dh3"/>
+                        <constraint firstItem="Hpx-hC-p6k" firstAttribute="leading" secondItem="uOH-3u-It5" secondAttribute="leading" constant="10" id="SHU-HR-9F6"/>
+                        <constraint firstAttribute="trailing" secondItem="flp-E2-VwA" secondAttribute="trailing" constant="10" id="kMY-hV-VbB"/>
+                        <constraint firstAttribute="bottom" secondItem="Hpx-hC-p6k" secondAttribute="bottom" constant="15" id="pnx-8p-pP9"/>
+                        <constraint firstItem="flp-E2-VwA" firstAttribute="leading" secondItem="Hpx-hC-p6k" secondAttribute="trailing" constant="10" id="wfE-bJ-oAp"/>
+                        <constraint firstAttribute="height" constant="150" id="ylx-X5-EEf"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="h5c-Og-jM6">
+                    <rect key="frame" x="0.0" y="150" width="375" height="517"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="T24-fq-NQJ"/>
+                        <outlet property="delegate" destination="-1" id="Sm6-5Z-gRr"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.062745098040000002" green="0.65490196079999996" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="h5c-Og-jM6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AAW-v3-Qhm"/>
+                <constraint firstItem="h5c-Og-jM6" firstAttribute="top" secondItem="uOH-3u-It5" secondAttribute="bottom" id="Hsb-A1-jn7"/>
+                <constraint firstItem="uOH-3u-It5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JWu-15-jNS"/>
+                <constraint firstItem="uOH-3u-It5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="K7s-XU-26a"/>
+                <constraint firstAttribute="trailing" secondItem="uOH-3u-It5" secondAttribute="trailing" id="jqO-GF-u09"/>
+                <constraint firstAttribute="trailing" secondItem="h5c-Og-jM6" secondAttribute="trailing" id="wL2-RX-2AA"/>
+                <constraint firstAttribute="bottom" secondItem="h5c-Og-jM6" secondAttribute="bottom" id="ymn-Pr-I5M"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="65.5" y="46.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="non_profile.png" width="512" height="512"/>
+    </resources>
+</document>

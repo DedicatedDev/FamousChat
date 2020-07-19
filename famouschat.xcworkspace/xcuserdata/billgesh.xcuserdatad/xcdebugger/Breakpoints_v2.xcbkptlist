@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6C41D5E8-50F9-48A5-9C8A-E8FC23A80799"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E43110FE-FA00-4B0C-94DB-1BAEB603443B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Controller/Main/Home/SearchUserInfuluencer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D7B84D9-C083-4792-984D-D2AB3BD24BE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Other/Video Call Helper/QuickBloxHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "loginWithCurrentUser(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98F82872-067F-4D26-A3C8-218C16ACE86A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Other/Video Call Helper/QuickBloxHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "loginUserWithEmail(_:userEmail:password:loginCompletionBlock:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "98F82872-067F-4D26-A3C8-218C16ACE86A - f6f1e70d3218d214"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static famouschat.QuickBloxHelper.loginUserWithEmail(_: Swift.String, userEmail: Swift.String, password: Swift.String, loginCompletionBlock: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "famouschat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billgesh/Desktop/famouschat%20Jan%2020%202020/famouschat/Other/Video%20Call%20Helper/QuickBloxHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "236"
+                  endingLineNumber = "236"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "98F82872-067F-4D26-A3C8-218C16ACE86A - f656c662b90c98b5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.QBResponse, __C.QBUUser) -&gt; () in static famouschat.QuickBloxHelper.loginUserWithEmail(_: Swift.String, userEmail: Swift.String, password: Swift.String, loginCompletionBlock: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "famouschat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billgesh/Desktop/famouschat%20Jan%2020%202020/famouschat/Other/Video%20Call%20Helper/QuickBloxHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "343">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15A8CD8E-6CED-4B10-AF4F-312AB29D157B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Other/Video Call Helper/QuickBloxHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "loginWithCurrentUser(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91825FC1-68B2-49CD-97B2-09430D29D31A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Other/Video Call Helper/QuickBloxHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
+            landmarkName = "loginUserWithEmail(_:userEmail:password:loginCompletionBlock:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91825FC1-68B2-49CD-97B2-09430D29D31A - db61a9c67a76dec5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.QBResponse, __C.QBUUser) -&gt; () in static famouschat.QuickBloxHelper.loginUserWithEmail(_: Swift.String, userEmail: Swift.String, password: Swift.String, loginCompletionBlock: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "famouschat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billgesh/Desktop/famouschat%20Jan%2020%202020/famouschat/Other/Video%20Call%20Helper/QuickBloxHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "254"
+                  endingLineNumber = "254"
+                  offsetFromSymbolStart = "803">
+               </Location>
+               <Location
+                  uuid = "91825FC1-68B2-49CD-97B2-09430D29D31A - b4aec03ec939705b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Double, Swift.Bool) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.QBResponse, __C.QBUUser) -&gt; () in static famouschat.QuickBloxHelper.loginUserWithEmail(_: Swift.String, userEmail: Swift.String, password: Swift.String, loginCompletionBlock: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "famouschat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billgesh/Desktop/famouschat%20Jan%2020%202020/famouschat/Other/Video%20Call%20Helper/QuickBloxHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "257"
+                  endingLineNumber = "257"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0804F0E8-9161-42EB-977A-3642C431BAB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Other/Video Call Helper/QuickBloxHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "260"
+            endingLineNumber = "260"
+            landmarkName = "loginUserWithEmail(_:userEmail:password:loginCompletionBlock:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0804F0E8-9161-42EB-977A-3642C431BAB8 - db61a9c67a76dec5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.QBResponse, __C.QBUUser) -&gt; () in static famouschat.QuickBloxHelper.loginUserWithEmail(_: Swift.String, userEmail: Swift.String, password: Swift.String, loginCompletionBlock: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "famouschat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billgesh/Desktop/famouschat%20Jan%2020%202020/famouschat/Other/Video%20Call%20Helper/QuickBloxHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "1309">
+               </Location>
+               <Location
+                  uuid = "0804F0E8-9161-42EB-977A-3642C431BAB8 - 353c559b1a026d34"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.QBResponse, Swift.Optional&lt;Swift.Array&lt;__C.QBChatDialog&gt;&gt;, Swift.Optional&lt;Swift.Set&lt;__C.NSNumber&gt;&gt;, Swift.Optional&lt;__C.QBResponsePage&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.QBResponse, __C.QBUUser) -&gt; () in static famouschat.QuickBloxHelper.loginUserWithEmail(_: Swift.String, userEmail: Swift.String, password: Swift.String, loginCompletionBlock: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "famouschat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billgesh/Desktop/famouschat%20Jan%2020%202020/famouschat/Other/Video%20Call%20Helper/QuickBloxHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "260"
+                  endingLineNumber = "260"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "0804F0E8-9161-42EB-977A-3642C431BAB8 - fa829cf0f2ee5634"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__C.QBResponse) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (__C.QBResponse, __C.QBUUser) -&gt; () in static famouschat.QuickBloxHelper.loginUserWithEmail(_: Swift.String, userEmail: Swift.String, password: Swift.String, loginCompletionBlock: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "famouschat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/billgesh/Desktop/famouschat%20Jan%2020%202020/famouschat/Other/Video%20Call%20Helper/QuickBloxHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "262"
+                  endingLineNumber = "262"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22B848FF-47E6-474A-90CE-BC1AC1D5105C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Controller/Main/Home/MainHomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "462"
+            endingLineNumber = "462"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "860F695B-3B75-42EA-8BB6-145FB501FC76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Controller/Main/Home/MainHomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "455"
+            endingLineNumber = "455"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEEE5DB9-44C5-41BD-BD89-1D1876034BAF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/Controller/Main/Home/MainHomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "454"
+            endingLineNumber = "454"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0FAB2A7-B4EB-40D0-B358-E36377998F67"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "famouschat/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "notiProcess(dict:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

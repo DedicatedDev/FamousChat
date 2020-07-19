@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="C9z-dL-cjE" customClass="OnePickerAlert" customModule="famouschat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzA-Dj-mpt">
+                    <rect key="frame" x="109.5" y="20" width="100" height="6"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="6" id="7yb-8X-VwL"/>
+                        <constraint firstAttribute="width" constant="100" id="crj-Mo-hmJ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r1I-3G-MFh">
+                    <rect key="frame" x="59.5" y="245" width="200" height="35"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mPa-dA-xTv">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                            <state key="normal" title="APPLY CHANGES">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.28627450980000002" green="0.59215686270000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="T4z-v0-VxA"/>
+                        <constraint firstAttribute="height" constant="35" id="jCY-PM-nhf"/>
+                    </constraints>
+                </view>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ANc-Du-f2j">
+                    <rect key="frame" x="10" y="82" width="299" height="143"/>
+                </pickerView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoG-fu-Khd">
+                    <rect key="frame" x="10" y="41" width="299" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="zrK-cs-TnP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="VoG-fu-Khd" firstAttribute="leading" secondItem="sI3-Vz-68F" secondAttribute="leading" constant="10" id="3rM-WC-GK9"/>
+                <constraint firstItem="ANc-Du-f2j" firstAttribute="centerX" secondItem="C9z-dL-cjE" secondAttribute="centerX" id="4lM-8B-NOk"/>
+                <constraint firstItem="sI3-Vz-68F" firstAttribute="trailing" secondItem="VoG-fu-Khd" secondAttribute="trailing" constant="10" id="5Ii-55-Hk7"/>
+                <constraint firstItem="sI3-Vz-68F" firstAttribute="bottom" secondItem="r1I-3G-MFh" secondAttribute="bottom" constant="20" id="D1c-9A-tDz"/>
+                <constraint firstItem="ANc-Du-f2j" firstAttribute="leading" secondItem="C9z-dL-cjE" secondAttribute="leading" constant="10" id="LFy-Wv-Vt7"/>
+                <constraint firstItem="ANc-Du-f2j" firstAttribute="top" secondItem="VoG-fu-Khd" secondAttribute="bottom" constant="20" id="RO8-eh-h0Z"/>
+                <constraint firstItem="r1I-3G-MFh" firstAttribute="top" secondItem="ANc-Du-f2j" secondAttribute="bottom" constant="20" id="dat-ef-4hV"/>
+                <constraint firstAttribute="trailing" secondItem="ANc-Du-f2j" secondAttribute="trailing" constant="10" id="ddb-EC-B3z"/>
+                <constraint firstItem="r1I-3G-MFh" firstAttribute="centerX" secondItem="C9z-dL-cjE" secondAttribute="centerX" id="gvU-ui-0L1"/>
+                <constraint firstItem="qzA-Dj-mpt" firstAttribute="top" secondItem="sI3-Vz-68F" secondAttribute="top" constant="20" id="iFW-u1-M9F"/>
+                <constraint firstItem="qzA-Dj-mpt" firstAttribute="centerX" secondItem="C9z-dL-cjE" secondAttribute="centerX" id="xSU-bc-jtm"/>
+                <constraint firstItem="VoG-fu-Khd" firstAttribute="top" secondItem="qzA-Dj-mpt" secondAttribute="bottom" constant="15" id="yIK-wi-wyh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="sI3-Vz-68F"/>
+            <connections>
+                <outlet property="apply_btn" destination="mPa-dA-xTv" id="Z5p-1h-hF4"/>
+                <outlet property="apply_frame" destination="r1I-3G-MFh" id="3uM-Ba-CXi"/>
+                <outlet property="picker" destination="ANc-Du-f2j" id="oVN-NN-AEP"/>
+                <outlet property="title" destination="VoG-fu-Khd" id="igx-LW-EKu"/>
+                <outlet property="top_frame" destination="qzA-Dj-mpt" id="XQU-Q4-JPC"/>
+            </connections>
+            <point key="canvasLocation" x="16.800000000000001" y="-10.794602698650676"/>
+        </view>
+    </objects>
+</document>

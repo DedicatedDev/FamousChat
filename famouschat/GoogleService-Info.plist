@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>520146656243-q3e471cu920168tgr8ehgqfl1lhvjgfh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.520146656243-q3e471cu920168tgr8ehgqfl1lhvjgfh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDYcaWa93uiRolD6LP4Gvx0uJgT5WrG02M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>520146656243</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>oni.populerechat.com</string>
+	<key>PROJECT_ID</key>
+	<string>chatterli</string>
+	<key>STORAGE_BUCKET</key>
+	<string>populerechat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:520146656243:ios:2d0dbd54f1f37170</string>
+	<key>DATABASE_URL</key>
+	<string>https://populerechat.firebaseio.com</string>
+</dict>
+</plist>

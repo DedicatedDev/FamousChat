@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VideoRecordVC" customModule="famouschat" customModuleProvider="target">
+            <connections>
+                <outlet property="camPreview" destination="5gP-Ym-ZuO" id="Mtz-uS-1SL"/>
+                <outlet property="record_btn" destination="Jut-YW-Ys6" id="DBh-0f-tID"/>
+                <outlet property="switch_btn" destination="I1T-Ra-eod" id="bfe-2l-jFT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5gP-Ym-ZuO">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jut-YW-Ys6">
+                    <rect key="frame" x="177" y="782" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="JzX-SW-ygm"/>
+                        <constraint firstAttribute="width" constant="60" id="dfl-MK-ahO"/>
+                    </constraints>
+                    <state key="normal" image="video_record_start.png"/>
+                    <connections>
+                        <action selector="recordAction:" destination="-1" eventType="touchUpInside" id="ILM-0t-lvu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1T-Ra-eod">
+                    <rect key="frame" x="57" y="792" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="6rw-x4-gTi"/>
+                        <constraint firstAttribute="height" constant="40" id="NOB-IG-lcu"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="camera_switch.png"/>
+                    <connections>
+                        <action selector="switchAction:" destination="-1" eventType="touchUpInside" id="HVB-jY-k2B"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Jut-YW-Ys6" firstAttribute="leading" secondItem="I1T-Ra-eod" secondAttribute="trailing" constant="80" id="0Oi-1A-uwy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Jut-YW-Ys6" secondAttribute="bottom" constant="20" id="OWA-Yc-akO"/>
+                <constraint firstItem="5gP-Ym-ZuO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="W9n-ep-nnc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5gP-Ym-ZuO" secondAttribute="trailing" id="b4A-fJ-B8E"/>
+                <constraint firstItem="I1T-Ra-eod" firstAttribute="centerY" secondItem="Jut-YW-Ys6" secondAttribute="centerY" id="dDp-2E-wRw"/>
+                <constraint firstItem="Jut-YW-Ys6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gDH-1y-Nav"/>
+                <constraint firstAttribute="bottom" secondItem="5gP-Ym-ZuO" secondAttribute="bottom" id="p0G-Dw-Ps8"/>
+                <constraint firstItem="5gP-Ym-ZuO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rJF-6U-gXu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="152.67857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera_switch.png" width="200" height="200"/>
+        <image name="video_record_start.png" width="76" height="76"/>
+    </resources>
+</document>

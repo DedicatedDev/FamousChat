@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartSelectVC" customModule="famouschat" customModuleProvider="target">
+            <connections>
+                <outlet property="no_btn" destination="UNK-R5-mOW" id="hwU-To-maw"/>
+                <outlet property="sign_btn" destination="XCW-XP-sr6" id="Pmn-4a-pce"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background1.png" translatesAutoresizingMaskIntoConstraints="NO" id="vtv-Kl-NeU">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ME-QX-bEd">
+                    <rect key="frame" x="16" y="0.0" width="343" height="627"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4fB-m6-cVU">
+                            <rect key="frame" x="10" y="100" width="323" height="70"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you an" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkK-dH-OVn">
+                                    <rect key="frame" x="0.0" y="0.0" width="323" height="35"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="influencer?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kB-U8-ulj">
+                                    <rect key="frame" x="0.0" y="35" width="323" height="35"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="70" id="53J-b6-d0a"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iW8-nM-hz7">
+                            <rect key="frame" x="5" y="220" width="333" height="80"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click below to set your profile up as an" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oop-Wc-kmD">
+                                    <rect key="frame" x="0.0" y="0.0" width="333" height="20"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="influencer! You can connect your chatterli" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHO-Af-ZAu">
+                                    <rect key="frame" x="0.0" y="20" width="333" height="20"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="account to your social media accounts to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0u-ka-wHn">
+                                    <rect key="frame" x="0.0" y="40" width="333" height="20"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="connect with your followers faster." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40t-sw-3ED">
+                                    <rect key="frame" x="0.0" y="60" width="333" height="20"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="0ul-SJ-LQo"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="vNz-5P-F6K">
+                            <rect key="frame" x="30" y="390" width="283" height="120"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCW-XP-sr6">
+                                    <rect key="frame" x="0.0" y="0.0" width="283" height="40"/>
+                                    <color key="backgroundColor" red="0.062745098040000002" green="0.65490196079999996" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                    <state key="normal" title="SIGN UP AS INFLUENCER">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="signAction:" destination="-1" eventType="touchUpInside" id="mVA-15-IVh"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UNK-R5-mOW">
+                                    <rect key="frame" x="0.0" y="80" width="283" height="40"/>
+                                    <color key="backgroundColor" red="0.062745098040000002" green="0.65490196079999996" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                    <state key="normal" title="NO THANKS">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="noAction:" destination="-1" eventType="touchUpInside" id="MrA-xw-M8s"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="77i-yH-ynz"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="iW8-nM-hz7" firstAttribute="leading" secondItem="5ME-QX-bEd" secondAttribute="leading" constant="5" id="0KB-fp-yUi"/>
+                        <constraint firstItem="4fB-m6-cVU" firstAttribute="top" secondItem="5ME-QX-bEd" secondAttribute="top" constant="100" id="34t-CO-rgz"/>
+                        <constraint firstAttribute="trailing" secondItem="vNz-5P-F6K" secondAttribute="trailing" constant="30" id="G84-R9-5TK"/>
+                        <constraint firstItem="vNz-5P-F6K" firstAttribute="leading" secondItem="5ME-QX-bEd" secondAttribute="leading" constant="30" id="IKi-D8-O7p"/>
+                        <constraint firstAttribute="height" constant="607" id="U1A-cX-HlO"/>
+                        <constraint firstItem="iW8-nM-hz7" firstAttribute="top" secondItem="4fB-m6-cVU" secondAttribute="bottom" constant="50" id="YI4-qh-F5t"/>
+                        <constraint firstItem="vNz-5P-F6K" firstAttribute="top" secondItem="iW8-nM-hz7" secondAttribute="bottom" constant="90" id="ZcH-hb-eWv"/>
+                        <constraint firstAttribute="trailing" secondItem="iW8-nM-hz7" secondAttribute="trailing" constant="5" id="aCH-u4-Wg8"/>
+                        <constraint firstItem="4fB-m6-cVU" firstAttribute="centerX" secondItem="5ME-QX-bEd" secondAttribute="centerX" id="dQk-pV-8M0"/>
+                        <constraint firstAttribute="bottom" secondItem="vNz-5P-F6K" secondAttribute="bottom" constant="70" id="dhG-37-WhY"/>
+                        <constraint firstItem="4fB-m6-cVU" firstAttribute="leading" secondItem="5ME-QX-bEd" secondAttribute="leading" constant="10" id="l4j-vF-wsi"/>
+                        <constraint firstAttribute="trailing" secondItem="4fB-m6-cVU" secondAttribute="trailing" constant="10" id="xtw-dW-TVa"/>
+                    </constraints>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="9bq-g4-NcR">
+                    <rect key="frame" x="147.5" y="615" width="80" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="aoH-G4-TeK"/>
+                        <constraint firstAttribute="width" constant="80" id="xjY-qv-LWn"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" red="0.062745098040000002" green="0.65490196079999996" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="5ME-QX-bEd" secondAttribute="trailing" constant="16" id="9Eg-VG-ZcQ"/>
+                <constraint firstItem="9bq-g4-NcR" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Gte-W3-lBh"/>
+                <constraint firstItem="vtv-Kl-NeU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="M35-vo-LQr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5ME-QX-bEd" secondAttribute="bottom" constant="40" id="Mcy-0H-3uj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9bq-g4-NcR" secondAttribute="bottom" constant="15" id="WdU-Jm-pB7"/>
+                <constraint firstAttribute="bottom" secondItem="vtv-Kl-NeU" secondAttribute="bottom" id="f8U-6V-wak"/>
+                <constraint firstItem="5ME-QX-bEd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="mgs-9w-OUs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vtv-Kl-NeU" secondAttribute="trailing" id="oMk-4E-I0G"/>
+                <constraint firstItem="5ME-QX-bEd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="rd7-Z0-ay8"/>
+                <constraint firstItem="vtv-Kl-NeU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="viB-wQ-fia"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background1.png" width="1080" height="1920"/>
+    </resources>
+</document>
